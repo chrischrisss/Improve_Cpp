@@ -6,8 +6,6 @@ namespace display {
     bool visible;
 }
 
-
 int main() {
-
     return 0;
 }
