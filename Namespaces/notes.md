@@ -6,7 +6,7 @@
 
 <hr>
 
-Example 1 in ```main.cpp```
+Example 1 in ```Ex1.cpp```
 
 The C++ equivalent of a full name is something called a fully qualified name. In Example 1, the fully qualified name of the variable ```width``` is ```display::width```
 
@@ -29,4 +29,16 @@ namespace std {
 
 <h2>Global namespace</h2>
 
-If you do not enclose your code 
+If you do not enclose your code or variables in any namespace, a blank namespace is assigned to them.
+
+Example in ```Ex2.cpp```
+
+<h2>File-Specific Namespace</h2>
+
+When a namespace is defined with the name of an existing namespace, this results in a namespace collision. To avoid this, C++ has invented the unnamed namespace
+
+```namespace {} ```
+
+The declaration with no name specified, puts all the enclosed declarations in a namespace unique to the file.
+
+
