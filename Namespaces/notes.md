@@ -41,4 +41,4 @@ When a namespace is defined with the name of an existing namespace, this results
 
 The declaration with no name specified, puts all the enclosed declarations in a namespace unique to the file.
 
-
+<h2>Nested namespaces</h2>
