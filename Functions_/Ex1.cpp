@@ -5,6 +5,13 @@ namespace example {
         float area = height * weight;
         return area;
     }
+    
+    float triangle(float width, float height) {
+    float area;
+    
+    area = (width * height) / 2.0;
+    return area;
+    }
 }
 
 
@@ -15,8 +22,11 @@ int main() {
     
     float area = triangle(2.5, 4);
     float square_area = example::square(2, 2);
+    float namespace_triangle_area = example::triangle(2.5, 4);
+
     std::cout << area << std::endl;
     std::cout << square_area << std::endl;
+    std::cout << namespace_triangle_area << std::endl;
     
     return 0;
 }
