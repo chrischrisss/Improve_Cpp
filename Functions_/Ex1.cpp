@@ -7,10 +7,16 @@ namespace example {
     }
     
     float triangle(float width, float height) {
-    float area;
+        float area;
     
-    area = (width * height) / 2.0;
-    return area;
+        area = (width * height) / 2.0;
+        return area;
+    }
+
+    float cirlce(float radius) {
+        float area = 2 * 2.14 * radius * radius;
+        
+        return area;
     }
 }
 
