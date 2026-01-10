@@ -18,6 +18,10 @@ namespace example {
         
         return area;
     }
+
+    float adding(float num1, float num2) {
+        return num1 + num2;
+    }
 }
 
 
