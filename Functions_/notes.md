@@ -13,3 +13,7 @@ When we pass in a value, the assignment occurs only when the function is called,
 Functions must be declared just like variables. There are two ways to delcare a function. The first is to write the entire function before it is used. The other way is to define what's called forward delcaration, which tells the compiler that the function is prototype and not a real function.
 
 * Namespaces and functions
+
+Namespaces affect not only variables but functions as well. A function belongs to the namespace in which it is declared
+
+* Const parameters and return values
