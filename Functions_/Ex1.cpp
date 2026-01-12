@@ -1,6 +1,6 @@
 #include <iostream>
 
-namespace example {
+namespace example { // example of function in namespace
     float square(float height, float weight) {
         float area = height * weight;
         return area;
