@@ -35,7 +35,7 @@ float triangle(float width, float height); // forward delcaration of a function
 int main() {
     
     float area = triangle(2.5, 4);
-    float square_area = example::square(2, 2);
+    float square_area = example::square(2, 2); // function from namespace
     float namespace_triangle_area = example::triangle(2.5, 4);
 
     std::cout << area << std::endl;
