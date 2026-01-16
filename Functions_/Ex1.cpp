@@ -1,5 +1,6 @@
 #include <iostream>
 
+// namespace for functions
 namespace example { // example of function in namespace
     float square(float height, float weight) {
         float area = height * weight;
@@ -41,7 +42,6 @@ int main() {
     std::cout << area << std::endl;
     std::cout << square_area << std::endl;
     std::cout << namespace_triangle_area << std::endl;
-    
     return 0;
 }
 
