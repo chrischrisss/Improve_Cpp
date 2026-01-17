@@ -42,6 +42,8 @@ int main() {
     std::cout << area << std::endl;
     std::cout << square_area << std::endl;
     std::cout << namespace_triangle_area << std::endl;
+    std::cout << example::cirlce(2) << std::endl;
+    
     return 0;
 }
 
